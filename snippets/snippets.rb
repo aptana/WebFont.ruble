@@ -29,7 +29,7 @@ snippet 'Insert WebFont.load section (typekit)' do |s|
   s.scope = 'text.html'
   s.expansion = '<script type="text/javascript">
   WebFont.load({
-    typekit: "${1:myKitId}"
+    typekit: "${1:MY_TYPEKIT_FONTID}"
   });
 </script>'
 end
@@ -45,4 +45,24 @@ snippet 'Insert WebFont.load section (custom)' do |s|
     urls: ["${3:/fonts.css}"]
   });
 </script>'
+end
+
+snippet 'Insert .wf-active Style' do |s|
+  s.input = :none
+  s.output = :insert_as_snippet
+  s.trigger = 'wfa'
+  s.scope = 'source.css'
+  s.expansion = '.wf-active ${1:p} {
+  font-family: "${2:My Font}", "${3:serif}";
+}'
+end
+
+snippet 'Insert .wf-inactive Style' do |s|
+  s.input = :none
+  s.output = :insert_as_snippet
+  s.trigger = 'wfi'
+  s.scope = 'source.css'
+  s.expansion = '.wf-inactive ${1:p} {
+  font-family: "${2:serif}";
+}'
 end
