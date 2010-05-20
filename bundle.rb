@@ -8,5 +8,12 @@ bundle do |bundle|
 
   bundle.menu "WebFont" do |menu|    
     menu.command "Insert webfont.js <script> tag"
+    menu.separator
+    menu.command "Insert WebFont.load section (google)"
+    menu.command "Insert WebFont.load section (TypeKit)"
+    menu.command "Insert WebFont.load section (custom)"
+    menu.separator
+    menu.command "Insert .wf-active Style"
+    menu.command "Insert .wf-inactive Style"
   end
 end
