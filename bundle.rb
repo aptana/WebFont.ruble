@@ -7,6 +7,6 @@ bundle do |bundle|
   bundle.copyright = "Copryright 2010 Aptana. Distributed under MIT license."
 
   bundle.menu "WebFont" do |menu|    
-    menu.command "PeepOpen File"
+    menu.command "Insert webfont.js <script> tag"
   end
 end
