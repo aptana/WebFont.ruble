@@ -17,10 +17,22 @@ You can type this:
     wfjs<TAB><RETURN>
     wfloadg<TAB>Droid Sans<TAB>Droid Serif<TAB><RETURN>
 
+There are similar snippets for loading your fonts from TypeKit (wfloadtk) and Custom sources: (wfloadc).
+
 Same thing goes for your CSS. To style your H1 tags as Droid Sans, just do this:
 
-  wfi<TAB>h1<TAB><TAB><RETURN>
-  wfa<TAB>h1<TAB>Droid Sans<TAB><TAB><RETURN>
+    wfi<TAB>h1<TAB><TAB><RETURN>
+    wfa<TAB>h1<TAB>Droid Sans<TAB><TAB><RETURN>
+
+And you'll get in your CSS:
+
+    .wf-inactive h1 {
+      font-family: "serif";
+    }
+    .wf-active h1 {
+      font-family: "Droid Sans", "serif";
+    }
+
 
 License
 =======
