@@ -1,3 +1,6 @@
+Introduction
+============
+
 Google and TypeKit announced a [pretty nifty library][wfl] to support the WebFont initiative yesterday.
 And since we think its pretty nifty, we're doing our part by releasing a set of snippets to make using
 WebFonts in your webpages even easier. So instead of typing this in your HEAD tag:
@@ -23,7 +26,7 @@ Same thing goes for your CSS. To style your H1 tags as Droid Sans, just do this:
     wfi<TAB>h1<TAB><TAB><RETURN>
     wfa<TAB>h1<TAB>Droid Sans<TAB><TAB><RETURN>
 
-And you'll get in your CSS:
+And you'll get this CSS:
 
     .wf-inactive h1 {
       font-family: "serif";
@@ -31,6 +34,11 @@ And you'll get in your CSS:
     .wf-active h1 {
       font-family: "Droid Sans", "serif";
     }
+
+Installation
+============
+
+You can install this Ruble into Studio 3 using the **Commands > Bundle Development > Install Bundle** command.
 
 License
 =======
