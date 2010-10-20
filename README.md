@@ -78,7 +78,7 @@ plugin containing this source file.
  
 Any modifications to this file must keep this entire header intact.
 
-## Other Stuff
+## Bugs/Requests
 
 * You can [report a bug or request a feature here](http://github.com/aptana/webfont.ruble/issues)
 
