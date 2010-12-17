@@ -12,6 +12,6 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.radrails.rails.core.railsnature</nature>
-	</natures>
+    <nature>com.aptana.ruby.core.rubynature</nature>
+  </natures>
 </projectDescription>
