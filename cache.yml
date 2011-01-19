@@ -1,0 +1,162 @@
+!!com.aptana.scripting.model.BundleElement
+author: Andrew Shebanow
+children:
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children: &id001 []
+    commandName: Insert webfont.js <script> tag
+    customProperties: null
+    displayName: Insert webfont.js <script> tag
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: '-'
+    customProperties: null
+    displayName: '-'
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Insert WebFont.load section (google)
+    customProperties: null
+    displayName: Insert WebFont.load section (google)
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Insert WebFont.load section (TypeKit)
+    customProperties: null
+    displayName: Insert WebFont.load section (TypeKit)
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Insert WebFont.load section (custom)
+    customProperties: null
+    displayName: Insert WebFont.load section (custom)
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: '-'
+    customProperties: null
+    displayName: '-'
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Insert .wf-active Style
+    customProperties: null
+    displayName: Insert .wf-active Style
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Insert .wf-inactive Style
+    customProperties: null
+    displayName: Insert .wf-inactive Style
+    path: bundle.rb
+    scope: null
+  commandName: WebFont
+  customProperties: null
+  displayName: WebFont
+  path: bundle.rb
+  scope: null
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wfjs]
+  displayName: Insert webfont.js <script> tag
+  expansion: <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js">
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.html
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wfloadg]
+  displayName: Insert WebFont.load section (google)
+  expansion: "<script type=\"text/javascript\">\n  WebFont.load({\n    google: {\n\
+    \      families: [ \"${1:Tangerine}\", \"${2:Cantarell}\" ]\n    }\n  });\n</script>"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.html
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wfloadtk]
+  displayName: Insert WebFont.load section (typekit)
+  expansion: "<script type=\"text/javascript\">\n  WebFont.load({\n    typekit: \"\
+    ${1:MY_TYPEKIT_FONTID}\"\n  });\n</script>"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.html
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wfloadc]
+  displayName: Insert WebFont.load section (custom)
+  expansion: "<script type=\"text/javascript\">\n  WebFont.load({\n    families: [\
+    \ \"${1:My Font}\", \"${2:My Other Font}\" ] \n    urls: [\"${3:/fonts.css}\"\
+    ]\n  });\n</script>"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.html
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wfa]
+  displayName: Insert .wf-active Style
+  expansion: ".wf-active ${1:p} {\n  font-family: \"${2:My Font}\", \"${3:serif}\"\
+    ;\n}"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.css
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [wfi]
+  displayName: Insert .wf-inactive Style
+  expansion: ".wf-inactive ${1:p} {\n  font-family: \"${2:serif}\";\n}"
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.css
+  workingDirectoryType: UNDEFINED
+copyright: Copryright 2010 Aptana. Distributed under MIT license.
+customProperties: null
+decreaseIndentMarkers: &id002 {}
+description: Support for WebFont Loader API from google & typekit, see https://code.google.com/apis/webfonts/docs/webfont_loader.html
+displayName: WebFont
+fileTypeRegistry: *id002
+fileTypes: *id001
+foldingStartMarkers: *id002
+foldingStopMarkers: *id002
+increaseIndentMarkers: *id002
+license: null
+licenseUrl: null
+path: bundle.rb
+repository: null
+visible: true
