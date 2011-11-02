@@ -22,7 +22,7 @@ snippet 'Insert WebFont.load section (google)' do |s|
 </script>'
 end
 
-snippet 'Insert WebFont.load section (typekit)' do |s|
+snippet 'Insert WebFont.load section (TypeKit)' do |s|
   s.input = :none
   s.output = :insert_as_snippet
   s.trigger = 'wfloadtk'

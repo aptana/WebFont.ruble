@@ -91,7 +91,7 @@ children:
   async: false
   customProperties:
     prefix_values: [wfloadtk]
-  displayName: Insert WebFont.load section (typekit)
+  displayName: Insert WebFont.load section (TypeKit)
   expansion: "<script type=\"text/javascript\">\n  WebFont.load({\n    typekit: \"\
     ${1:MY_TYPEKIT_FONTID}\"\n  });\n</script>"
   input: [none]
@@ -153,14 +153,14 @@ children:
   workingDirectoryType: UNDEFINED
 copyright: Copryright 2010 Aptana. Distributed under MIT license.
 customProperties: null
-decreaseIndentMarkers: &id002 {}
+decreaseIndentMarkers: {}
 description: Support for WebFont Loader API from google & typekit, see https://code.google.com/apis/webfonts/docs/webfont_loader.html
 displayName: WebFont
-fileTypeRegistry: *id002
-fileTypes: *id001
-foldingStartMarkers: *id002
-foldingStopMarkers: *id002
-increaseIndentMarkers: *id002
+fileTypeRegistry: {}
+fileTypes: []
+foldingStartMarkers: {}
+foldingStopMarkers: {}
+increaseIndentMarkers: {}
 license: null
 licenseUrl: null
 path: bundle.rb
