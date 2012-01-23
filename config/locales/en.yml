@@ -1,0 +1,9 @@
+en:
+  bundle_name: 'WebFont'
+  insert_webfont_script_tag: "Insert webfont.js <script> tag"
+  insert_webfont_load_google: "Insert WebFont.load section (google)"
+  insert_webfont_load_typekit: "Insert WebFont.load section (TypeKit)"
+  insert_webfont_load_custom: "Insert WebFont.load section (custom)"
+  insert_active_style: "Insert .wf-active Style"
+  insert_inactive_style: "Insert .wf-inactive Style"
+  
