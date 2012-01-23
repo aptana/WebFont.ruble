@@ -5,7 +5,7 @@ bundle do |bundle|
   bundle.display_name = t(:bundle_name)
   bundle.description = "Support for WebFont Loader API from google & typekit, see https://code.google.com/apis/webfonts/docs/webfont_loader.html"
   bundle.copyright = "Copryright 2010 Aptana. Distributed under MIT license."
-  bundle.repository = "git://github.com/aptana/wordpress.ruble.git"
+  bundle.repository = "git://github.com/aptana/WebFont.ruble.git"
 
   bundle.menu t(:bundle_name) do |menu|
     menu.command t(:insert_webfont_script_tag)
